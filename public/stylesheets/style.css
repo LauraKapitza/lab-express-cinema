@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url('/images/cinema.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    color: white;
+    font-size: 8em;
+    margin: 0 0 30px;
+}
+
+.button {
+    background: white;
+    border-radius: 50px;
+    border: none;
+    color: #00B7FF; font-size: 1.25em;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button:hover {
+    background: #c4eeff;
+}
+
+.button:active {
+     background: #00B7FF;
+     color: white;
+}
+
+.hero-page {
+    position:absolute;
+    left: 50%; top: 25%;
+}

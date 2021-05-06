@@ -1,1 +1,14 @@
-<h1>HIIIII</h1>
+<header>
+    <h1>Ironhack Cinema</h1>
+    <p>Click on the movie to check the showtimes!</p>
+</header>
+
+<div class='flexbox'>
+    {{#each movies}}
+        <div class='movie'>
+            <img src='{{image}}' alt={{title}}>
+            <h3>{{title}}</h3>
+            <a href='/movie-details'>See more</a>
+        </div>
+    {{/each}}
+</div>

@@ -3,18 +3,27 @@
 }
 
 body {
-    background: url('/images/cinema.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
     font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
     margin: 0;
 }
 
+body.home {
+    background: url('/images/cinema.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body.movies {
+    background: white;
+}
+
 h1 {
-    color: white;
+    color: #00B7FF;
     font-size: 8em;
     margin: 0 0 30px;
 }
+
+body.home h1 {color: white;}
 
 .button {
     background: white;

@@ -108,3 +108,23 @@ body.movies {
 }
 
 .movie a:hover {text-decoration: underline;}
+
+
+/* -------------------- */
+/*     MOVIE DETAILS    */
+/* -------------------- */
+
+.movie-img {
+    display: flex; flex-flow: column;
+    padding-right: 40px;
+    text-align: center;
+}
+
+.movie-img a {
+    align-self: flex-start;
+    padding-bottom: 10px;;
+}
+
+.details {
+    width: 40vw;
+}
